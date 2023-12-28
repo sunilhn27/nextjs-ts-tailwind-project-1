@@ -12,11 +12,11 @@ import { SlArrowRight } from "react-icons/sl";
 
 export default function Hero() {
   return (
-    <section className="my-12 ">
-      <div className="flex justify-center items-center ">
+    <section className="my-12 bg-[#FAFAFA]">
+      <div className="flex justify-center items-center">
         <div className="flex flex-col ">
-          <h3 className="text-2xl font-serif">Appify helps to</h3>
-          <h1 className="text-4xl font-thin">Get Your Money</h1>
+          <h3 className="text-3xl">Appify helps to</h3>
+          <h1 className="text-5xl font-thin">Get Your Money</h1>
           <h1 className="text-4xl font-bold">Working</h1>
           <p className="w-[34rem] text-gray-500">
             With impressive interest rates, an app, tools & guides, to plan,
