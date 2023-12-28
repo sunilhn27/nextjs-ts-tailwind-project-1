@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <section className="w-auto mt-2 h-[6rem] fixed top-0 left-0 right-0 z-10">
+    <section className=" w-auto mt-2 h-[6rem] fixed top-0 left-0 right-0 z-10">
       <div className="flex justify-evenly items-center tracking-wider">
         <nav className="flex items-center gap-8 font-bold text-[1.2rem] ">
           <Image src={Logo} alt="logo" />
