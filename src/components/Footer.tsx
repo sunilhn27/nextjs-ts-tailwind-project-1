@@ -1,6 +1,6 @@
 import Image,{ StaticImageData } from "next/image";
 import React from "react";
-import VectorImg3 from '@/asserts/Vector3.png';
+import VectorImg3 from '@/app/asserts/Logo.png';
 
 
 interface ServiceCardProps {
@@ -22,12 +22,12 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ image, title, para }) => {
 };
 
 export default function Footer(): JSX.Element{
-  return (
-    <section className="">
-      <div>
-        <ServiceCard image={VectorImg3} title="title" para="Para"/>
-      </div>
-    </section>
+  return (<></>
+    // <section className="">
+    //   <div>
+    //     <ServiceCard image={VectorImg3} title="title" para="Para"/>
+    //   </div>
+    // </section>
   );
 }
 
