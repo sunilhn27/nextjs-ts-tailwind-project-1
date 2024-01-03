@@ -5,6 +5,7 @@ import FeatureTwo from '@/components/FeatureTwo'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import Sponspors from '@/components/Sponspors'
+import Testimonial from '@/components/Testimonial'
 import Image from 'next/image'
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Feature/>
       <FeatureTwo/>
       <FeatureThree/>
+      <Testimonial/>
     </main>
   )
 }
