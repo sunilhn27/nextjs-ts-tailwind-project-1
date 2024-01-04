@@ -8,8 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      scale: {
+        '-100': '-1',
+      },
       backgroundImage: {
-        
+        // 'my_bg_image':"url('./public/svgexport-5.png')",
       },
     },
   },
